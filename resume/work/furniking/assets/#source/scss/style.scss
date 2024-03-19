@@ -91,6 +91,10 @@ $second_font: "Mulish";
 // Шрифт по замовчуванню
 $fontFamily: "Rubik";
 
+// Кольори
+$main_color: #7AC751;
+$white_color: #ffffff;
+
 $minWidth: 320px;
 $maxWidth: 1440;
 $maxWidthContainer: 1170;
@@ -105,8 +109,44 @@ $md4: 479.98;
 // </МІКСІНИ>========================================================================================
 
 .header {
+	width: 100%;
+	background-color: $main_color;
+	&__content {
+		font-family: $main_font;
+		font-weight: 400;
+		padding: 16px 0;
+		color: $white_color;
+		font-size: 16px;
+	}
 	._container {
-		width: $maxWidthContainer + px;
+		max-width: $maxWidthContainer+px;
 		margin: 0 auto;
+		.header__flex {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+		}
+		.welcome {}
+		.flex_wrapp {
+			display: flex;
+			justify-content: space-between
+		}
+		.spoiler {
+			position: relative;
+			margin-right: 50px;
+			&:before {
+				counter: "";
+				position: absolute;
+				z-index: -1;
+				top: 20px;
+				right: 20px;
+				width: 12px;
+				height: 7.41px;
+				background-image: url("../../icons/icon_spoiler_arrow.svg") center center no-reapet;
+		}
+		.login_sign {}
+		}
 	}
 }
+
+

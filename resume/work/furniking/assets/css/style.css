@@ -11,6 +11,7 @@
 *,
 *:before,
 *:after {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -90,7 +91,49 @@ h6 {
 }
 
 /*--------------------*/
+.header {
+  width: 100%;
+  background-color: #7AC751;
+}
+.header__content {
+  font-family: "Rubik";
+  font-weight: 400;
+  padding: 16px 0;
+  color: #ffffff;
+  font-size: 16px;
+}
 .header ._container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
+}
+.header ._container .header__flex {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header ._container .flex_wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header ._container .spoiler {
+  position: relative;
+  margin-right: 50px;
+}
+.header ._container .spoiler:before {
+  counter: "";
+  position: absolute;
+  z-index: -1;
+  top: 20px;
+  right: 20px;
+  width: 12px;
+  height: 7.41px;
+  background-image: url("../../icons/icon_spoiler_arrow.svg") center center no-reapet;
 }
