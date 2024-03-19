@@ -91,6 +91,15 @@ h6 {
 }
 
 /*--------------------*/
+.wrapper {
+  max-width: 1440px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 .header {
   width: 100%;
   background-color: #7AC751;
@@ -102,11 +111,7 @@ h6 {
   color: #ffffff;
   font-size: 16px;
 }
-.header ._container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-.header ._container .header__flex {
+.header .container .header__flex {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -115,7 +120,7 @@ h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.header ._container .flex_wrapp {
+.header .container .flex_wrapp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,11 +128,11 @@ h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.header ._container .spoiler {
+.header .container .spoiler {
   position: relative;
   margin-right: 50px;
 }
-.header ._container .spoiler:before {
+.header .container .spoiler:before {
   counter: "";
   position: absolute;
   z-index: -1;
