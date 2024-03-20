@@ -103,6 +103,7 @@ h6 {
 .header {
   width: 100%;
   background-color: #7AC751;
+  margin-bottom: 21px;
 }
 .header__content {
   font-family: "Rubik";
@@ -141,4 +142,47 @@ h6 {
   width: 12px;
   height: 7.41px;
   background-image: url("../../icons/icon_spoiler_arrow.svg") center center no-reapet;
+}
+.search .container .search__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.search .container .search__content .logo {
+  width: 147px;
+}
+.search .container .search__content .logo .logo_img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.search .container .search__content .search_form {
+  width: 403px;
+}
+.search .container .search__content .search_form__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+.search .container .search__content .search_form__flex .form_input {
+  display: block;
+  border: 2px solid #7AC751;
+}
+.search .container .search__content .tray {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 121px;
 }

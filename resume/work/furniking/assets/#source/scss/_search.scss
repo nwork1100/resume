@@ -1,0 +1,49 @@
+.search {
+	.container {
+		.search__content {
+			display: flex;
+			justify-content: start;
+			align-items: center;
+			.logo {
+				width: 147px;
+				.logo_img {
+					display: block;
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			.search_form {
+				width: 403px;
+				&__flex {
+					display: flex;
+					justify-content: start;
+					.form_input {
+						display: block;
+						border: 2px solid $main_color;
+					}
+					.form_categories {
+
+					}
+					.form_loupe {
+						.btn_submit {
+
+						}
+					}
+				}
+			}
+			.tray {
+				display: flex;
+				justify-content: space-between;
+				width: 121px;
+				.tray__item{
+					
+				}
+			}
+		}
+	}
+}
+
+
+._icon-shop {}
+._icon-bell {}
+._icon-avatar {}
