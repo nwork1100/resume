@@ -156,6 +156,7 @@ h6 {
 }
 .search .container .search__content .logo {
   width: 147px;
+  margin-right: 120px;
 }
 .search .container .search__content .logo .logo_img {
   display: block;
@@ -163,19 +164,62 @@ h6 {
   height: auto;
 }
 .search .container .search__content .search_form {
-  width: 403px;
-}
-.search .container .search__content .search_form__flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
+  width: 500px;
+  margin-right: 280px;
 }
-.search .container .search__content .search_form__flex .form_input {
-  display: block;
+.search .container .search__content .search_form .form_input {
+  display: inline-block;
+  font-family: "Rubik";
+  font-size: 14px;
+  width: 403px;
+  padding: 16px;
   border: 2px solid #7AC751;
+  border-radius: 7px 0 0 7px;
+  border-right: 2px solid #E3E3E3;
+}
+.search .container .search__content .search_form input::-webkit-input-placeholder {
+  font-family: "Rubik";
+  color: #5F5F5F;
+}
+.search .container .search__content .search_form input::-moz-placeholder {
+  font-family: "Rubik";
+  color: #5F5F5F;
+}
+.search .container .search__content .search_form input:-ms-input-placeholder {
+  font-family: "Rubik";
+  color: #5F5F5F;
+}
+.search .container .search__content .search_form input::-ms-input-placeholder {
+  font-family: "Rubik";
+  color: #5F5F5F;
+}
+.search .container .search__content .search_form input::placeholder {
+  font-family: "Rubik";
+  color: #5F5F5F;
+}
+.search .container .search__content .search_form .form_categories {
+  width: 122px;
+  padding-left: 11px;
+  padding-top: 17px;
+  font-family: "Rubik";
+  font-size: 14px;
+  color: #555555;
+  border: 2px solid #7AC751;
+  border-left: none;
+}
+.search .container .search__content .search_form .btn_submit {
+  width: 53px;
+  height: 53px;
+  background: #7AC751;
+  border-radius: 0 7px 7px 0;
+  border: none;
+  outline: none;
 }
 .search .container .search__content .tray {
   display: -webkit-box;

@@ -6,6 +6,7 @@
 			align-items: center;
 			.logo {
 				width: 147px;
+				margin-right: 120px;
 				.logo_img {
 					display: block;
 					max-width: 100%;
@@ -13,22 +14,41 @@
 				}
 			}
 			.search_form {
-				width: 403px;
-				&__flex {
-					display: flex;
-					justify-content: start;
-					.form_input {
-						display: block;
-						border: 2px solid $main_color;
-					}
-					.form_categories {
-
-					}
-					.form_loupe {
-						.btn_submit {
-
-						}
-					}
+				display: flex;
+				justify-content: start;
+				width: 500px;
+				margin-right: 280px;
+				.form_input {
+					display: inline-block;
+					font-family: $main_font;
+					font-size: 14px;
+					width: 403px;
+					padding: 16px;
+					border: 2px solid $main_color;
+					border-radius: 7px 0 0 7px;
+					border-right: 2px solid #E3E3E3
+				}
+				input::placeholder {
+					font-family: $main_font;
+					color: #5F5F5F;
+				}
+				.form_categories {
+					width: 122px;
+					padding-left: 11px;
+					padding-top: 17px;
+					font-family: $main_font;
+					font-size: 14px;
+					color: #555555;
+					border: 2px solid $main_color;
+					border-left: none;
+				}
+				.btn_submit {
+					width: 53px;
+					height: 53px;
+					background: $main_color;
+					border-radius: 0 7px 7px 0;
+					border: none;
+					outline: none;
 				}
 			}
 			.tray {
@@ -36,7 +56,6 @@
 				justify-content: space-between;
 				width: 121px;
 				.tray__item{
-					
 				}
 			}
 		}
