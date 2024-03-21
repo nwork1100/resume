@@ -62,26 +62,24 @@
 				display: flex;
 				justify-content: space-between;
 				width: 121px;
-				.tray__item._icon-shop{
+				.tray__item a._icon-shop {
 					position: relative;
-				}
-				.tray__item span {
-					position: absolute;
-					display: inline-block;
-					display: flex;
-					align-items: center;
-					justify-content: center;
-					margin: auto;
-					top: 0px;
-					left: 19px;
-					width: 13px;
-					height: 13px;
-					background: $main_color;
-					color: $white_color;
-					font-family: $main_font;
-					font-weight: 400;
-					font-size: 8px;
-					border-radius: 100%;
+					&::after {
+						content: '4';
+						position: absolute;
+						top: -11px;
+						right: -8px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						color: $white_color;
+						width: 13px;
+						height: 13px;
+						font-weight: 400;
+						font-size: 9px;
+						background: $main_color;
+						border-radius: 100%;
+					}
 				}
 			}
 		}

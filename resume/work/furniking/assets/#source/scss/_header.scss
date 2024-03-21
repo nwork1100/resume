@@ -20,20 +20,28 @@
 			display: flex;
 			justify-content: space-between
 		}
-		.spoiler {
-			position: relative;
-			margin-right: 50px;
-			&:before {
-				counter: "";
-				position: absolute;
-				z-index: -1;
-				top: 20px;
-				right: 20px;
-				width: 12px;
-				height: 7.41px;
-				background-image: url("../../icons/icon_spoiler_arrow.svg") center center no-reapet;
-		}
-		.login_sign {}
-		}
+			.spoiler {
+				position: relative;
+				margin-right: 60px;
+				img {
+					position: absolute;
+					display: inline-block;
+					top: 5px;
+					right: -20px;
+				}
+			}
+			.login_sign {
+				position: relative;
+				&::before {
+					content: '';
+					position: absolute;
+					display: block;
+					top: 0;
+					left: -20px;
+					width: 2.2px;
+					height: 19px;
+					background: $white_color;
+				}
+			}
 	}
 }

@@ -131,18 +131,28 @@ h6 {
 }
 .header .container .spoiler {
   position: relative;
-  margin-right: 50px;
+  margin-right: 60px;
 }
-.header .container .spoiler:before {
-  counter: "";
+.header .container .spoiler img {
   position: absolute;
-  z-index: -1;
-  top: 20px;
-  right: 20px;
-  width: 12px;
-  height: 7.41px;
-  background-image: url("../../icons/icon_spoiler_arrow.svg") center center no-reapet;
+  display: inline-block;
+  top: 5px;
+  right: -20px;
 }
+.header .container .login_sign {
+  position: relative;
+}
+.header .container .login_sign::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: -20px;
+  width: 2.2px;
+  height: 19px;
+  background: #ffffff;
+}
+
 .search .container .search__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -237,12 +247,14 @@ h6 {
           justify-content: space-between;
   width: 121px;
 }
-.search .container .search__content .tray .tray__item._icon-shop {
+.search .container .search__content .tray .tray__item a._icon-shop {
   position: relative;
 }
-.search .container .search__content .tray .tray__item span {
+.search .container .search__content .tray .tray__item a._icon-shop::after {
+  content: "4";
   position: absolute;
-  display: inline-block;
+  top: -11px;
+  right: -8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -252,15 +264,11 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: auto;
-  top: 0px;
-  left: 19px;
+  color: #ffffff;
   width: 13px;
   height: 13px;
-  background: #7AC751;
-  color: #ffffff;
-  font-family: "Rubik";
   font-weight: 400;
-  font-size: 8px;
+  font-size: 9px;
+  background: #7AC751;
   border-radius: 100%;
 }
