@@ -101,21 +101,68 @@
 						}
 					}
 				}
+				.big__area {
+					position: relative;
+					height: 384px;
+					padding-left: 47px;
+					background-color: #F2FBFF;
+					z-index: 100;
+					border-left: 12px solid #fff;
+					border-top: 12px solid #fff;
+					.area_text {
+						position: absolute;
+						font-family: $main_font;
+						top: 73px;
+						left: 47px;
+						.area_top {
+							margin-bottom: 10px;
+							font-family: inherit;
+							font-size: 22px;
+							text-transform: uppercase;
+							color: $main_color;
+							font-weight: bold;
+							-webkit-text-stroke: 1px #000;
+						}
+						h1.title {
+							position: relative;
+							margin-bottom: 38px;
+							font-family: inherit;
+							font-size: 40px;
+							color: #2F2F2F;
+							font-weight: 500;
+							text-transform: capitalize;
+							text-shadow: #B9B9B9 0px 3px 2px;
+							line-height: 43px;
+							img.area_line_img {
+								position: absolute;
+								top: 77px;
+								left: 137px;
+								width: 177px;
+								height: 29px;
+							}
+						}
+						.area_get {
+							margin-bottom: 30px;
+							font-family: $second_font;
+							font-size: 27px;
+							font-weight: 600;
+							color: #808283;
+						}
+						.btn_shop {
+							@include btn;
+						}
+					}
+					.slider {
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+				}
 			}
 		}
 	}
 }
 
-
-
-.big__area {}
-.area_text {}
-.area_top {}
-.title {}
-.area_get {}
-.btn_shop {}
-.area_line {}
-.area_line_img {}
 .slider {}
 .slider__chair {}
 .slider_img {}

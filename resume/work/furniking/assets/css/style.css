@@ -405,3 +405,68 @@ h6 {
 .mass .container .mass__content .big nav.menu ul.menu_list li.menu_item a.menu_link:hover {
   color: #7AC751;
 }
+.mass .container .mass__content .big .big__area {
+  position: relative;
+  height: 384px;
+  padding-left: 47px;
+  background-color: #F2FBFF;
+  z-index: 100;
+  border-left: 12px solid #fff;
+  border-top: 12px solid #fff;
+}
+.mass .container .mass__content .big .big__area .area_text {
+  position: absolute;
+  font-family: "Rubik";
+  top: 73px;
+  left: 47px;
+}
+.mass .container .mass__content .big .big__area .area_text .area_top {
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #7AC751;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #000;
+}
+.mass .container .mass__content .big .big__area .area_text h1.title {
+  position: relative;
+  margin-bottom: 38px;
+  font-family: inherit;
+  font-size: 40px;
+  color: #2F2F2F;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-shadow: #B9B9B9 0px 3px 2px;
+  line-height: 43px;
+}
+.mass .container .mass__content .big .big__area .area_text h1.title img.area_line_img {
+  position: absolute;
+  top: 77px;
+  left: 137px;
+  width: 177px;
+  height: 29px;
+}
+.mass .container .mass__content .big .big__area .area_text .area_get {
+  margin-bottom: 30px;
+  font-family: "Mulish";
+  font-size: 27px;
+  font-weight: 600;
+  color: #808283;
+}
+.mass .container .mass__content .big .big__area .area_text .btn_shop {
+  width: 129px;
+  height: 40px;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #7AC751;
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.mass .container .mass__content .big .big__area .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
