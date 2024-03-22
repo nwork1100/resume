@@ -153,6 +153,9 @@ h6 {
   background: #ffffff;
 }
 
+.search {
+  margin-bottom: 25px;
+}
 .search .container .search__content {
   display: -webkit-box;
   display: -ms-flexbox;
