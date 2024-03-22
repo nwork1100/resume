@@ -16,6 +16,7 @@
 					height: 67px;
 					background: $main_color;
 					.coll_title {
+						margin-right: -35px;
 						font-family: $main_font;
 						text-transform: uppercase;
 						color: $white_color;
@@ -25,7 +26,7 @@
 						display: flex;
 						flex-direction: column;
 						top: 26px;
-						left: 36px;
+						left: 30px;
 						.line1 {
 							display: inline-block;
 							margin-bottom: 4px;
@@ -51,10 +52,10 @@
 						}
 					}
 				}
-				.coll_menu {
+				nav.coll_menu {
 					background: #F7F8FA;
-					.coll_list {
-						.coll_item {
+					ul.coll_list {
+						li.coll_item {
 							padding: 10px 0 10px 29px;
 							border-bottom: 1px solid #E3E3E3;
 							&:last-child {
@@ -66,6 +67,36 @@
 								font-size: 14px;
 								color: $second_color;
 								text-transform: capitalize;
+								&:hover {
+									color: $main_color;
+								}
+							}
+						}
+					}
+				}
+			}
+			.big {
+				width: 100%;
+				nav.menu {
+					display: flex;
+					align-items: center;
+					padding-left: 82px;
+					background: #F7F8FA;
+					height: 67px;
+					ul.menu_list {
+						display: flex;
+						justify-content: start;
+						list-style-type: none;
+						li.menu_item {
+							margin-right: 65px;
+							a.menu_link {
+								text-transform: uppercase;
+								font-family: $main_font;
+								text-decoration: none;
+								color: $second_color;
+								&:hover {
+									color: $main_color;
+								}
 							}
 						}
 					}
@@ -74,10 +105,9 @@
 		}
 	}
 }
-.big {}
-.menu {}
-.menu_list {}
-.menu_link {}
+
+
+
 .big__area {}
 .area_text {}
 .area_top {}
