@@ -9,3 +9,18 @@
 	color: $white_color;
 	text-transform: uppercase;
 }
+
+@mixin furniture_title {
+	margin-bottom: 10px;
+	font-family: $second_font;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+@mixin furniture_price {
+	margin-bottom: 10px;
+	font-family: $second_font;
+	font-size: 20px;
+	font-weight: 600;
+	color: $main_color;
+}

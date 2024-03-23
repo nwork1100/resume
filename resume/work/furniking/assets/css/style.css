@@ -96,7 +96,7 @@ h6 {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1173px;
   margin: 0 auto;
 }
 
@@ -277,7 +277,7 @@ h6 {
 }
 
 .mass {
-  margin-bottom: 500px;
+  margin-bottom: 65px;
 }
 .mass .container .mass__content {
   display: -webkit-box;
@@ -557,4 +557,101 @@ h6 {
   font-weight: 500;
   color: #555555;
   text-transform: capitalize;
+}
+
+.pros {
+  margin-bottom: 70px;
+}
+.pros .container .pros__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.pros .container .pros__content .pros_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.pros .container .pros__content .pros_item .pros_item_iw {
+  margin-right: 15px;
+  max-width: 58px;
+}
+.pros .container .pros__content .pros_item .pros_item_iw .pros_img {
+  width: 100%;
+}
+.pros .container .pros__content .pros_item .pros_item_tw h2.pros_title {
+  margin-bottom: 5px;
+  font-family: "Rubik";
+  font-size: 20px;
+  font-weight: 500;
+  color: #555555;
+}
+.pros .container .pros__content .pros_item .pros_item_tw .pros_descr {
+  font-family: "Rubik";
+  font-size: 14px;
+  font-weight: 400;
+  color: #838383;
+}
+
+.furniture {
+  margin-bottom: 200px;
+}
+.furniture .container .furniture__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.furniture .container .furniture__content .furniture_big {
+  padding-top: 49px;
+  padding-left: 31px;
+  width: 669px;
+  height: 511px;
+  background: url("../img/furniture/big_furniture.jpg") center center/cover no-repeat;
+}
+.furniture .container .furniture__content .furniture_big .furniture_title {
+  margin-bottom: 10px;
+  font-family: "Mulish";
+  font-size: 22px;
+  font-weight: bold;
+}
+.furniture .container .furniture__content .furniture_big .furniture_price {
+  margin-bottom: 10px;
+  font-family: "Mulish";
+  font-size: 20px;
+  font-weight: 600;
+  color: #7AC751;
+}
+.furniture .container .furniture__content .furniture_small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.furniture .container .furniture__content .furniture_small .furniture_big_item_1 {
+  width: 486px;
+  height: 247px;
+  background: url("../img/furniture/small_furniture_1.jpg") center center/cover no-repeat;
+}
+.furniture .container .furniture__content .furniture_small .furniture_big_item_2 {
+  width: 486px;
+  height: 247px;
+  background: url("../img/furniture/small_furniture_2.jpg") center center/cover no-repeat;
 }

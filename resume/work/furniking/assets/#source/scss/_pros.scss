@@ -1,0 +1,41 @@
+.pros {
+	margin-bottom: 70px;
+	.container {
+		.pros__content {
+			display: flex;
+			justify-content: space-between;
+			.pros_item {
+				display: flex;
+				justify-content: start;
+				align-items: center;
+				.pros_item_iw {
+					margin-right: 15px;
+					max-width: 58px;
+					.pros_img {
+						width: 100%;
+					}
+				}
+				.pros_item_tw {
+					h2.pros_title {
+						margin-bottom: 5px;
+						font-family: $main_font;
+						font-size: 20px;
+						font-weight: 500;
+						color: $second_color;
+					}
+					.pros_descr {
+						font-family: $main_font;
+						font-size: 14px;
+						font-weight: 400;
+						color: #838383;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+

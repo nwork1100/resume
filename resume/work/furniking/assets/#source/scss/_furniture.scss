@@ -1,0 +1,51 @@
+.furniture {
+	margin-bottom: 200px;
+	.container {
+		.furniture__content {
+			display: flex;
+			justify-content: space-between;
+			.furniture_big {
+				padding-top: 49px;
+				padding-left: 31px;
+				width: 669px;
+				height: 511px;
+				background: url("../img/furniture/big_furniture.jpg") center center/cover no-repeat;
+				.furniture_title {
+					@include furniture_title;
+				}
+				.furniture_price {
+					@include furniture_price;
+				}
+				.furniture_btn {}
+			}
+			.furniture_small {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				.furniture_big_item_1 {
+					width: 486px;
+					height: 247px;
+					background: url("../img/furniture/small_furniture_1.jpg") center center/cover no-repeat;
+					.furniture_title {}
+					.furniture_price {}
+					.furniture_btn {}
+				}
+				.furniture_big_item_2 {
+					width: 486px;
+					height: 247px;
+					background: url("../img/furniture/small_furniture_2.jpg") center center/cover no-repeat;
+					.furniture_title {}
+					.furniture_price {}
+					.furniture_btn {}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+

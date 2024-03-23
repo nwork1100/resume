@@ -98,7 +98,7 @@ $white_color: #ffffff;
 
 $minWidth: 320px;
 $maxWidth: 1440;
-$maxWidthContainer: 1170;
+$maxWidthContainer: 1173;
 $md1: $maxWidthContainer + 12;
 $md2: 991.98;
 $md3: 767.98;
@@ -121,6 +121,9 @@ $md4: 479.98;
 @import "header";
 @import "search";
 @import "mass";
+@import "pros";
+@import "furniture";
+
 
 
 
