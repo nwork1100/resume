@@ -471,7 +471,7 @@ h6 {
 .mass .container .mass__content .big .big__area .slider {
   position: absolute;
   top: 40px;
-  left: 380px;
+  left: 390px;
 }
 .mass .container .mass__content .big .big__area .slider .slider__chair {
   max-width: 374px;
@@ -504,4 +504,57 @@ h6 {
 .mass .container .mass__content .big .big__area .slider .slider__btn img.btn_img_active {
   width: 24px;
   height: 9px;
+}
+.mass .container .mass__content .big .big__area .tape {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 58px;
+  right: 50px;
+}
+.mass .container .mass__content .big .big__area .tape .tape__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 98px;
+  height: 92px;
+  margin-bottom: 25.5px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.mass .container .mass__content .big .big__area .tape .tape__item:last-child {
+  margin-bottom: 0;
+}
+.mass .container .mass__content .big .big__area .tape .tape__item .item_prod {
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+.mass .container .mass__content .big .big__area .tape .tape__item .item_prod_price {
+  margin-bottom: 5px;
+  font-family: "Rubik";
+  font-size: 12px;
+  font-weight: 500;
+  color: #7AC751;
+}
+.mass .container .mass__content .big .big__area .tape .tape__item .item_prod_descr {
+  font-family: "Rubik";
+  font-size: 8px;
+  font-weight: 500;
+  color: #555555;
+  text-transform: capitalize;
 }
