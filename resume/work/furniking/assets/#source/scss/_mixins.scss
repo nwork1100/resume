@@ -45,3 +45,39 @@
 	font-weight: 600;
 	color: $main_color;
 }
+
+@mixin new {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 1px;
+	width: 45px;
+	height: 20px;
+	font-family: $second_font;
+	font-size: 12px;
+	font-weight: 600;
+	color: $white_color;
+	text-transform: capitalize;
+	background: #00B7F1;
+	border-radius: 0 0 5px 0;
+}
+
+@mixin sale {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 1px;
+	width: 45px;
+	height: 20px;
+	font-family: $second_font;
+	font-size: 12px;
+	font-weight: 600;
+	color: $white_color;
+	text-transform: capitalize;
+	background: $main_color;
+	border-radius: 0 0 5px 0;
+}

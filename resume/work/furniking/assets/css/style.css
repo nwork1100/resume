@@ -603,7 +603,7 @@ h6 {
 }
 
 .furniture {
-  margin-bottom: 200px;
+  margin-bottom: 73px;
 }
 .furniture .container .furniture__content {
   display: -webkit-box;
@@ -744,4 +744,363 @@ h6 {
   width: 11px;
   height: 9px;
   background: url("../img/icons/icon_grey_arrow.svg") center center/cover no-repeat;
+}
+
+.trending {
+  margin-bottom: 200px;
+}
+.trending .container .trending__content .trending__title {
+  margin-bottom: 45px;
+  text-align: center;
+  font-family: "Mulish";
+  font-size: 36px;
+  font-weight: bold;
+  color: #555555;
+  text-transform: uppercase;
+}
+.trending .container .trending__content nav.trending__menu {
+  max-width: 572px;
+  margin: 0 auto;
+  margin-bottom: 73px;
+}
+.trending .container .trending__content nav.trending__menu .trending__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+.trending .container .trending__content nav.trending__menu .trending__list .trending__item .trending__link {
+  font-family: serif;
+  font-family: "Mulish";
+  font-size: 24px;
+  font-weight: 600;
+  color: #C2C2C2;
+  text-transform: capitalize;
+}
+.trending .container .trending__content nav.trending__menu .trending__list .trending__item .trending__link:hover {
+  color: #7AC751;
+}
+.trending .container .trending__content .trending__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+.trending .container .trending__content .trending__wrapp .trending__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 45px;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 270px;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-1 {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 288px;
+  background: url("../img/trending/minimal_lcd_chair.jpg") center center/cover no-repeat;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-1 .trending__prod-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 45px;
+  height: 20px;
+  font-family: "Mulish";
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+  background: #00B7F1;
+  border-radius: 0 0 5px 0;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-2 {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 288px;
+  background: url("../img/trending/minimal_iconic_chair.jpg") center center/cover no-repeat;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-2 .trending__prod-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 45px;
+  height: 20px;
+  font-family: "Mulish";
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+  background: #00B7F1;
+  border-radius: 0 0 5px 0;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-3 {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 288px;
+  background: url("../img/trending/dining_chairs.jpg") center center/cover no-repeat;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-3 .trending__prod-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 45px;
+  height: 20px;
+  font-family: "Mulish";
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+  background: #7AC751;
+  border-radius: 0 0 5px 0;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-4 {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 288px;
+  background: url("../img/trending/buskbo_armchair.jpg") center center/cover no-repeat;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-4 .trending__prod-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 45px;
+  height: 20px;
+  font-family: "Mulish";
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+  background: #7AC751;
+  border-radius: 0 0 5px 0;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-5 {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 288px;
+  background: url("../img/trending/modern_chairs.jpg") center center/cover no-repeat;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-5 .trending__prod-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 45px;
+  height: 20px;
+  font-family: "Mulish";
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+  background: #7AC751;
+  border-radius: 0 0 5px 0;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-6 {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 288px;
+  background: url("../img/trending/plastic_dining_chair.jpg") center center/cover no-repeat;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-6 .trending__prod-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 45px;
+  height: 20px;
+  font-family: "Mulish";
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+  background: #7AC751;
+  border-radius: 0 0 5px 0;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-7 {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 288px;
+  background: url("../img/trending/minimal_wood_chair.jpg") center center/cover no-repeat;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-7 .trending__prod-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 45px;
+  height: 20px;
+  font-family: "Mulish";
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+  background: #00B7F1;
+  border-radius: 0 0 5px 0;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-8 {
+  position: relative;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 288px;
+  background: url("../img/trending/elegent_wood_chair.jpg") center center/cover no-repeat;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_img-8 .trending__prod-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 45px;
+  height: 20px;
+  font-family: "Mulish";
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: capitalize;
+  background: #00B7F1;
+  border-radius: 0 0 5px 0;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod-lable {
+  margin-bottom: 9px;
+  font-family: "Mulish";
+  font-size: 14px;
+  font-weight: 400;
+  color: #757575;
+  text-transform: uppercase;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod-name {
+  margin-bottom: 10px;
+  font-family: "Rubik";
+  font-size: 20px;
+  font-weight: 400;
+  color: #555555;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod-price .prod-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod-price span.prod-price_now {
+  display: inline-block;
+  margin-right: 15px;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: bold;
+  color: #7AC751;
+}
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod-price span.prod-price_was {
+  display: inline-block;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 600;
+  color: #CCCCCC;
+  text-decoration: line-through;
 }
