@@ -624,14 +624,34 @@ h6 {
   margin-bottom: 10px;
   font-family: "Mulish";
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 500;
 }
 .furniture .container .furniture__content .furniture_big .furniture_price {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-family: "Mulish";
   font-size: 20px;
   font-weight: 600;
   color: #7AC751;
+}
+.furniture .container .furniture__content .furniture_big .furniture_btn {
+  position: relative;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  background: none;
+  border: none;
+  outline: none;
+}
+.furniture .container .furniture__content .furniture_big .furniture_btn::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  right: -16px;
+  width: 11px;
+  height: 9px;
+  background: url("../img/icons/icon_grey_arrow.svg") center center/cover no-repeat;
 }
 .furniture .container .furniture__content .furniture_small {
   display: -webkit-box;
@@ -646,12 +666,82 @@ h6 {
           justify-content: space-between;
 }
 .furniture .container .furniture__content .furniture_small .furniture_big_item_1 {
+  padding-top: 49px;
+  padding-left: 31px;
   width: 486px;
   height: 247px;
   background: url("../img/furniture/small_furniture_1.jpg") center center/cover no-repeat;
 }
+.furniture .container .furniture__content .furniture_small .furniture_big_item_1 .furniture_title {
+  margin-bottom: 10px;
+  font-family: "Mulish";
+  font-size: 22px;
+  font-weight: 500;
+}
+.furniture .container .furniture__content .furniture_small .furniture_big_item_1 .furniture_price {
+  margin-bottom: 15px;
+  font-family: "Mulish";
+  font-size: 20px;
+  font-weight: 600;
+  color: #7AC751;
+}
+.furniture .container .furniture__content .furniture_small .furniture_big_item_1 .furniture_btn {
+  position: relative;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  background: none;
+  border: none;
+  outline: none;
+}
+.furniture .container .furniture__content .furniture_small .furniture_big_item_1 .furniture_btn::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  right: -16px;
+  width: 11px;
+  height: 9px;
+  background: url("../img/icons/icon_grey_arrow.svg") center center/cover no-repeat;
+}
 .furniture .container .furniture__content .furniture_small .furniture_big_item_2 {
+  padding-top: 49px;
+  padding-left: 31px;
   width: 486px;
   height: 247px;
   background: url("../img/furniture/small_furniture_2.jpg") center center/cover no-repeat;
+}
+.furniture .container .furniture__content .furniture_small .furniture_big_item_2 .furniture_title {
+  margin-bottom: 10px;
+  font-family: "Mulish";
+  font-size: 22px;
+  font-weight: 500;
+}
+.furniture .container .furniture__content .furniture_small .furniture_big_item_2 .furniture_price {
+  margin-bottom: 15px;
+  font-family: "Mulish";
+  font-size: 20px;
+  font-weight: 600;
+  color: #7AC751;
+}
+.furniture .container .furniture__content .furniture_small .furniture_big_item_2 .furniture_btn {
+  position: relative;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  background: none;
+  border: none;
+  outline: none;
+}
+.furniture .container .furniture__content .furniture_small .furniture_big_item_2 .furniture_btn::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  right: -16px;
+  width: 11px;
+  height: 9px;
+  background: url("../img/icons/icon_grey_arrow.svg") center center/cover no-repeat;
 }

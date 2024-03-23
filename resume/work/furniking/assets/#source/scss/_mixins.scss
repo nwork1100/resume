@@ -10,15 +10,36 @@
 	text-transform: uppercase;
 }
 
+@mixin btn_read-more {
+	position: relative;
+	font-family: $second_font;
+	font-size: 16px;
+	font-weight: 400;
+	color: #757575;
+	background: none;
+	border: none;
+	outline: none;
+	&::after {
+		content: '';
+		display: inline-block;
+		position: absolute;
+		top: 8px;
+		right: -16px;
+		width: 11px;
+		height: 9px;
+		background: url("../img/icons/icon_grey_arrow.svg") center center/cover no-repeat;
+	}
+}
+
 @mixin furniture_title {
 	margin-bottom: 10px;
 	font-family: $second_font;
 	font-size: 22px;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 @mixin furniture_price {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 	font-family: $second_font;
 	font-size: 20px;
 	font-weight: 600;
