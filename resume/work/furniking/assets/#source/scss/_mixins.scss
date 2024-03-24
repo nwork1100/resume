@@ -81,3 +81,21 @@
 	background: $main_color;
 	border-radius: 0 0 5px 0;
 }
+
+@mixin price_now {
+	display: inline-block;
+	margin-right: 15px;
+	font-family: $second_font;
+	font-size: 18px;
+	font-weight: bold;
+	color: $main_color;
+}
+
+@mixin price_was {
+	display: inline-block;
+	font-family: $second_font;
+	font-size: 18px;
+	font-weight: 600;
+	color: #CCCCCC;
+	text-decoration: line-through;
+}

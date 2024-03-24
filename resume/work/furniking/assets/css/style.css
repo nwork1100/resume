@@ -747,7 +747,7 @@ h6 {
 }
 
 .trending {
-  margin-bottom: 200px;
+  margin-bottom: 99px;
 }
 .trending .container .trending__content .trending__title {
   margin-bottom: 45px;
@@ -1103,4 +1103,159 @@ h6 {
   font-weight: 600;
   color: #CCCCCC;
   text-decoration: line-through;
+}
+.trending .container .trending__content .trending__slider {
+  text-align: center;
+}
+.offer {
+  margin-bottom: 200px;
+}
+.offer .container .offer__content .offer__title {
+  margin-bottom: 60px;
+  font-family: "Mulish";
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+.offer .container .offer__content .offer__wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.offer .container .offer__content .offer__wrapp .offer__item {
+  position: relative;
+  padding-top: 28px;
+  padding-left: 24px;
+  width: 570px;
+  height: 249px;
+}
+.offer .container .offer__content .offer__wrapp .offer__item:first-child {
+  background: url("../img/offer/living_room.jpg") center center/cover no-repeat;
+}
+.offer .container .offer__content .offer__wrapp .offer__item:last-child {
+  background: url("../img/offer/offer_chair.jpg") center center/cover no-repeat;
+}
+.offer .container .offer__content .offer__wrapp .offer__item .offer__room-discount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: "Mulish";
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  width: 64px;
+  height: 23px;
+  background: #00B7F1;
+  border-radius: 0 0 0 5px;
+}
+.offer .container .offer__content .offer__wrapp .offer__item .offer__item-title {
+  margin-bottom: 11px;
+  font-family: "Mulish";
+  font-size: 22;
+  font-weight: 600;
+}
+.offer .container .offer__content .offer__wrapp .offer__item .offer__item-text {
+  margin-bottom: 23px;
+  font-family: "Mulish";
+  font-size: 12;
+  font-weight: 400;
+  color: #757575;
+  line-height: 18px;
+}
+.offer .container .offer__content .offer__wrapp .offer__item .offer__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 29px;
+}
+.offer .container .offer__content .offer__wrapp .offer__item .offer__price .offer__price-now {
+  display: inline-block;
+  margin-right: 15px;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: bold;
+  color: #7AC751;
+}
+.offer .container .offer__content .offer__wrapp .offer__item .offer__price .offer__price-was {
+  display: inline-block;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 600;
+  color: #CCCCCC;
+  text-decoration: line-through;
+  margin-right: 19px;
+}
+.offer .container .offer__content .offer__wrapp .offer__item .offer__price .offer__btn {
+  width: 129px;
+  height: 40px;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #7AC751;
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 91px;
+  height: 26px;
+}
+.offer .container .offer__content .offer__wrapp .offer__item .offer__time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 214px;
+  height: 40px;
+}
+.offer .container .offer__content .offer__wrapp .offer__item .offer__time-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 100%;
+  background-color: #7AC751;
+  border-radius: 100%;
+}
+.offer .container .offer__content .offer__wrapp .offer__item .offer__time-item .time-dig {
+  font-family: "Rubik";
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.offer .container .offer__content .offer__wrapp .offer__item .offer__time-item .time_descr {
+  font-family: "Rubik";
+  font-size: 8px;
+  font-weight: 500;
+  color: #ffffff;
 }

@@ -1,0 +1,117 @@
+.offer {
+	margin-bottom: 200px;
+	.container {
+		.offer__content {
+			.offer__title {
+				margin-bottom: 60px;
+				font-family: $second_font;
+				font-size: 36px;
+				font-weight: 600;
+				text-align: center;
+				text-transform: uppercase;
+			}
+			.offer__wrapp {
+				display: flex;
+				justify-content: space-between;
+				.offer__item {
+					position: relative;
+					padding-top: 28px;
+					padding-left: 24px;
+					width: 570px;
+					height: 249px;
+					&:first-child {
+						background: url("../img/offer/living_room.jpg") center center/cover no-repeat;
+					}
+					&:last-child {
+						background: url("../img/offer/offer_chair.jpg") center center/cover no-repeat;
+					}
+					.offer__room-discount {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						position: absolute;
+						top: 0;
+						right: 0;
+						font-family: $second_font;
+						font-size: 12px;
+						font-weight: 600;
+						color: $white_color;
+						width: 64px;
+						height: 23px;
+						background: #00B7F1;
+						border-radius: 0 0 0 5px;
+					}
+					.offer__item-title {
+						margin-bottom: 11px;
+						font-family: $second_font;
+						font-size: 22;
+						font-weight: 600;
+					}
+					.offer__item-text {
+						margin-bottom: 23px;
+						font-family: $second_font;
+						font-size: 12;
+						font-weight: 400;
+						color: #757575;
+						line-height: 18px;
+					}
+					.offer__price {
+						display: flex;
+						justify-content: start;
+						align-items: center;
+						margin-bottom: 29px;
+						.offer__price-now {
+							@include price_now;
+						}
+						.offer__price-was {
+							@include price_was;
+							margin-right: 19px;
+						}
+						.offer__btn {
+							@include btn;
+							font-size: 12px;
+							width: 91px;
+							height: 26px;
+						}
+					}
+					.offer__time {
+						display: flex;
+						justify-content: space-between;
+						width: 214px;
+						height: 40px;
+					}
+					.offer__time-item {
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						align-items: center;
+						width: 40px;
+						height: 100%;
+						background-color: $main_color;
+						border-radius: 100%;
+						.time-dig {
+							font-family: $main_font;
+							font-size: 14px;
+							font-weight: 500;
+							color: $white_color;
+						}
+						.time_descr {
+							font-family: $main_font;
+							font-size: 8px;
+							font-weight: 500;
+							color: $white_color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
