@@ -3,85 +3,48 @@
 	.container {
 		.trending__content {
 			.trending__title {
-				margin-bottom: 45px;
-				text-align: center;
-				font-family: $second_font;
-				font-size: 36px;
-				font-weight: bold;
-				color: $second_color;
-				text-transform: uppercase;
+				@include our_trending_title;
 			}
 			nav.trending__menu {
-				max-width: 572px;
-				margin: 0 auto;
-				margin-bottom: 73px;
+				@include our_trending_menu;
 				.trending__list {
-					display: flex;
-					justify-content: space-between;
-					list-style-type: none;
+					@include our_trending_menu_list;
 					.trending__item {
 						.trending__link {
-							font-family: serif;
-							font-family: $second_font;
-							font-size: 24px;
-							font-weight: 600;
-							color: #C2C2C2;
-							text-transform: capitalize;
-							&:hover {
-								color: $main_color;
-							}
+							@include our_trending_menu_link;
 						}
 					}
 				}
 			}
 			.trending__wrapp {
-				display: flex;
-				flex-direction: column;
-				justify-content: start;
+				@include our_trending_wrapp;
 				.trending__item {
-					display: flex;
-					justify-content: space-between;
-					margin-bottom: 45px;
+					@include our_trending_item;
 					.trending__prod {
-						display: flex;
-						flex-direction: column;
-						justify-content: start;
-						width: 270px;
+						@include our_trending_prod;
 						.trending__prod_img-1 {
-							position: relative;
-							margin-bottom: 15px;
-							width: 100%;
-							height: 288px;
+							@include our_trending_img;
 							background: url("../img/trending/minimal_lcd_chair.jpg") center center/cover no-repeat;
 							.trending__prod-status {
 								@include new;
 							}
 						}
 						.trending__prod_img-2 {
-							position: relative;
-							margin-bottom: 15px;
-							width: 100%;
-							height: 288px;
+							@include our_trending_img;
 							background: url("../img/trending/minimal_iconic_chair.jpg") center center/cover no-repeat;
 							.trending__prod-status {
 								@include new;
 							}
 						}
 						.trending__prod_img-3 {
-							position: relative;
-							margin-bottom: 15px;
-							width: 100%;
-							height: 288px;
+							@include our_trending_img;
 							background: url("../img/trending/dining_chairs.jpg") center center/cover no-repeat;
 							.trending__prod-status {
 								@include sale;
 							}
 						}
 						.trending__prod_img-4 {
-							position: relative;
-							margin-bottom: 15px;
-							width: 100%;
-							height: 288px;
+							@include our_trending_img;
 							background: url("../img/trending/buskbo_armchair.jpg") center center/cover no-repeat;
 							.trending__prod-status {
 								@include sale;
@@ -89,63 +52,41 @@
 						}
 
 						.trending__prod_img-5 {
-							position: relative;
-							margin-bottom: 15px;
-							width: 100%;
-							height: 288px;
+							@include our_trending_img;
 							background: url("../img/trending/modern_chairs.jpg") center center/cover no-repeat;
 							.trending__prod-status {
 								@include sale;
 							}
 						}
 						.trending__prod_img-6 {
-							position: relative;
-							margin-bottom: 15px;
-							width: 100%;
-							height: 288px;
+							@include our_trending_img;
 							background: url("../img/trending/plastic_dining_chair.jpg") center center/cover no-repeat;
 							.trending__prod-status {
 								@include sale;
 							}
 						}
 						.trending__prod_img-7 {
-							position: relative;
-							margin-bottom: 15px;
-							width: 100%;
-							height: 288px;
+							@include our_trending_img;
 							background: url("../img/trending/minimal_wood_chair.jpg") center center/cover no-repeat;
 							.trending__prod-status {
 								@include new;
 							}
 						}
 						.trending__prod_img-8 {
-							position: relative;
-							margin-bottom: 15px;
-							width: 100%;
-							height: 288px;
+							@include our_trending_img;
 							background: url("../img/trending/elegent_wood_chair.jpg") center center/cover no-repeat;
 							.trending__prod-status {
 								@include new;
 							}
 						}
 						.trending__prod-lable {
-							margin-bottom: 9px;
-							font-family: $second_font;
-							font-size: 14px;
-							font-weight: 400;
-							color: #757575;
-							text-transform: uppercase;
+							@include our_trending_lable;
 						}
 						.trending__prod-name {
-							margin-bottom: 10px;
-							font-family: $main_font;
-							font-size: 20px;
-							font-weight: 400;
-							color: $second_color;
+							@include our_trending_name;
 						}
-						.trending__prod-price {
-							display: flex;
-							justify-content: space-between;
+						.trending__prod_price {
+							@include trending_prod_price;
 							.prod-price {
 								display: flex;
 								justify-content: start;

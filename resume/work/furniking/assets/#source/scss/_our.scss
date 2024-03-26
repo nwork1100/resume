@@ -1,0 +1,114 @@
+.our {
+	margin-bottom: 200px;
+	.container {
+		.our__content {
+			.our__title {
+				margin-bottom: 45px;
+				text-align: center;
+				font-family: $second_font;
+				font-size: 36px;
+				font-weight: bold;
+				color: $second_color;
+				text-transform: uppercase;
+			}
+			nav.our__menu {
+				@include our_trending_menu;
+				max-width: 769px;
+				.our__list {
+					@include our_trending_menu_list;
+					.our__item {
+						.our__link {
+							@include our_trending_menu_link;
+						}
+					}
+				}
+			}
+			.our__wrapp {
+				@include our_trending_wrapp;
+				.our__item {
+					@include our_trending_item;
+					.our__prod {
+						@include our_trending_prod;
+						.our__prod_img-1 {
+							@include our_trending_img;
+							background: url("../img/our/minimal_lcd_chair.jpg") center center/cover no-repeat;
+							.our__prod-status {
+								@include sale;
+							}
+						}
+						.our__prod_img-2 {
+							@include our_trending_img;
+							background: url("../img/our/modern_sofa.jpg") center center/cover no-repeat;
+							.our__prod-status {
+								@include new;
+							}
+						}
+						.our__prod_img-3 {
+							@include our_trending_img;
+							background: url("../img/our/microfiber_sofa.jpg") center center/cover no-repeat;
+							.our__prod-status {
+								@include disc;
+							}
+						}
+						.our__prod_img-4 {
+							@include our_trending_img;
+							background: url("../img/our/wood_coffee_tables.jpg") center center/cover no-repeat;
+							.our__prod-status {
+								@include sale;
+							}
+						}
+						.our__prod_img-5 {
+							@include our_trending_img;
+							background: url("../img/our/acacia_wood_club_chairs.jpg") center center/cover no-repeat;
+							.our__prod-status {
+								@include disc;
+							}
+						}
+						.our__prod_img-6 {
+							@include our_trending_img;
+							background: url("../img/our/amalia_cowhide_bench.jpg") center center/cover no-repeat;
+							.our__prod-status {
+								@include sale;
+							}
+						}
+						.our__prod_img-7 {
+							@include our_trending_img;
+							background: url("../img/our/juno_hinged_lid_storage.jpg") center center/cover no-repeat;
+							.our__prod-status {
+								@include new;
+							}
+						}
+						.our__prod_img-8 {
+							@include our_trending_img;
+							background: url("../img/our/delicia_3_piece_living_room.jpg") center center/cover no-repeat;
+							.our__prod-status {
+								@include new;
+							}
+						}
+						.our__prod-lable {
+							@include our_trending_lable;
+						}
+						.our__prod-name {
+							@include our_trending_name;
+						}
+						.our__prod-price {
+							@include trending_prod_price;
+							.prod-price {
+								display: flex;
+								justify-content: start;
+							}
+							span.prod-price_now {
+								@include price_now;
+							}
+							span.prod-price_was {
+								@include price_was;
+							}
+							.prod-star {}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
