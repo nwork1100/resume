@@ -161,6 +161,9 @@
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 45px;
+	&:last-child {
+		margin-bottom: 50px;
+	}
 }
 
 @mixin our_trending_prod {
@@ -194,7 +197,7 @@
 	color: $second_color;
 }
 
-@mixin trending_prod_price {
+@mixin our_trending_prod_price {
 	display: flex;
 	justify-content: space-between;
 }

@@ -92,7 +92,7 @@
 							@include our_trending_name;
 						}
 						.our__prod-price {
-							@include trending_prod_price;
+							@include our_trending_prod_price;
 							.prod-price {
 								display: flex;
 								justify-content: start;
@@ -104,6 +104,73 @@
 								@include price_was;
 							}
 							.prod-star {}
+						}
+					}
+				}
+				.our__page_wrapp {
+					display: flex;
+					justify-content: end;
+					.our__page {
+					display: flex;
+					justify-content: start;
+					align-items: center;
+					width: 570px;
+					height: 44px;
+						.our__btn {
+							@include btn;
+							text-transform: none;
+							display: inline-block;
+							margin-right: 143px;
+							border-radius: 3px;
+							font-family: $second_font;
+							font-size: 18px;
+							font-weight: 500;
+						}
+						.our__text_page {
+							margin-right: 5px;
+							font-family: $second_font;
+							font-size: 18px;
+							font-weight: 400;
+							color: #757575;
+						}
+						.our__num_page {
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							margin-right: 19px;
+							width: 58px;
+							height: 29px;
+							font-family: $second_font;
+							font-size: 18px;
+							font-weight: 400;
+							color: #757575;
+							border: 1px solid #C8C9CA;
+							border-radius: 2px;
+						}
+						.our__of_page {
+							font-family: $second_font;
+							font-size: 18px;
+							font-weight: 400;
+							color: #757575;
+							margin-right: 23px;
+						}
+						.our__btn_prev {
+							display: block;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							width: 29px;
+							height: 29px;
+							background-color: $main_color;
+						}
+						.our__btn_next {
+							display: block;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							width: 29px;
+							height: 29px;
+							background-color: $main_color;
 						}
 					}
 				}

@@ -85,8 +85,8 @@
 						.trending__prod-name {
 							@include our_trending_name;
 						}
-						.trending__prod_price {
-							@include trending_prod_price;
+						.trending__prod-price {
+							@include our_trending_prod_price;
 							.prod-price {
 								display: flex;
 								justify-content: start;

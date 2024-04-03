@@ -803,6 +803,9 @@ h6 {
           justify-content: space-between;
   margin-bottom: 45px;
 }
+.trending .container .trending__content .trending__wrapp .trending__item:last-child {
+  margin-bottom: 50px;
+}
 .trending .container .trending__content .trending__wrapp .trending__item .trending__prod {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1071,7 +1074,7 @@ h6 {
   font-weight: 400;
   color: #555555;
 }
-.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_price {
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod-price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1079,7 +1082,7 @@ h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_price .prod-price {
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod-price .prod-price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1087,7 +1090,7 @@ h6 {
       -ms-flex-pack: start;
           justify-content: start;
 }
-.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_price span.prod-price_now {
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod-price span.prod-price_now {
   display: inline-block;
   margin-right: 15px;
   font-family: "Mulish";
@@ -1095,7 +1098,7 @@ h6 {
   font-weight: bold;
   color: #7AC751;
 }
-.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod_price span.prod-price_was {
+.trending .container .trending__content .trending__wrapp .trending__item .trending__prod .trending__prod-price span.prod-price_was {
   display: inline-block;
   font-family: "Mulish";
   font-size: 18px;
@@ -1316,6 +1319,9 @@ h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 45px;
+}
+.our .container .our__content .our__wrapp .our__item:last-child {
+  margin-bottom: 50px;
 }
 .our .container .our__content .our__wrapp .our__item .our__prod {
   display: -webkit-box;
@@ -1616,4 +1622,107 @@ h6 {
   font-weight: 600;
   color: #CCCCCC;
   text-decoration: line-through;
+}
+.our .container .our__content .our__wrapp .our__page_wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.our .container .our__content .our__wrapp .our__page_wrapp .our__page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 570px;
+  height: 44px;
+}
+.our .container .our__content .our__wrapp .our__page_wrapp .our__page .our__btn {
+  width: 129px;
+  height: 40px;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #7AC751;
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-transform: none;
+  display: inline-block;
+  margin-right: 143px;
+  border-radius: 3px;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 500;
+}
+.our .container .our__content .our__wrapp .our__page_wrapp .our__page .our__text_page {
+  margin-right: 5px;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+}
+.our .container .our__content .our__wrapp .our__page_wrapp .our__page .our__num_page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 19px;
+  width: 58px;
+  height: 29px;
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  border: 1px solid #C8C9CA;
+  border-radius: 2px;
+}
+.our .container .our__content .our__wrapp .our__page_wrapp .our__page .our__of_page {
+  font-family: "Mulish";
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  margin-right: 23px;
+}
+.our .container .our__content .our__wrapp .our__page_wrapp .our__page .our__btn_prev {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 29px;
+  height: 29px;
+  background-color: #7AC751;
+}
+.our .container .our__content .our__wrapp .our__page_wrapp .our__page .our__btn_next {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 29px;
+  height: 29px;
+  background-color: #7AC751;
 }
