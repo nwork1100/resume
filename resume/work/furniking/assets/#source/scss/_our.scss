@@ -1,15 +1,9 @@
 .our {
-	margin-bottom: 200px;
+	margin-bottom: 120px;
 	.container {
 		.our__content {
 			.our__title {
-				margin-bottom: 45px;
-				text-align: center;
-				font-family: $second_font;
-				font-size: 36px;
-				font-weight: bold;
-				color: $second_color;
-				text-transform: uppercase;
+				@include main_title;
 			}
 			nav.our__menu {
 				@include our_trending_menu;

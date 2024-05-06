@@ -3,7 +3,7 @@
 	.container {
 		.trending__content {
 			.trending__title {
-				@include our_trending_title;
+				@include main_title;
 			}
 			nav.trending__menu {
 				@include our_trending_menu;

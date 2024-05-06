@@ -1,0 +1,82 @@
+.latest {
+	margin-bottom: 200px;
+	.container {
+		.latest__content {
+			.latest__title {}
+			.blocks_wrapp {
+				display: flex;
+				flex-direction: column;
+				.blocks {
+					display: flex;
+					justify-content: space-between;
+					margin-bottom: 22px;
+					.blocks__item {
+						position: relative;
+						width: 569.75px;
+						height: 455.28px;
+						border-radius: 8px;
+					}
+					.item_1 {
+						background: url("../img/latest/minimal_sofa.png") center center/cover no-repeat;
+					}
+					.item_2 {
+						background: url("../img/latest/computer_table.png") center center/cover no-repeat;
+					}
+					.item_3 {
+						background: url("../img/latest/modern_bench.png") center center/cover no-repeat;
+					}
+					.item_4 {
+						background: url("../img/latest/white_chair.png") center center/cover no-repeat;
+					}
+					.blocks_content {
+						position: absolute;
+						top: 238px;
+						left: 37px;
+						.clip {
+							padding: 5px;
+							margin-right: 7px;
+							color: $main_color;
+							font-family: $main_font;
+							text-transform: uppercase;
+							background: #fff;
+							border-radius: 5px
+						}
+						.clip img {
+							margin-right: 7px;
+						}
+						.date {
+							font-family: $second_font;
+							font-weight: 500;
+							color: #fff;
+						}
+						.latest_sub_title {
+							margin-top: 30px;
+							margin-bottom: 35px;
+							font-family: $second_font;
+							font-size: 39px;
+							line-height: 47px;
+							font-weight: bold;
+							color: #fff;
+						}
+						.latest_btn {
+							@include btn_read-more;
+							color: #fff;
+						}
+						.latest_btn::after {
+							content: '';
+							background: none;
+						}
+						.latest_btn:hover{
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+

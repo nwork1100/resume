@@ -1,0 +1,65 @@
+.says {
+	margin-bottom: 130px;
+	.container {
+		.says__content {
+			.says__title {
+				@include main_title;
+				margin-bottom: 90px;
+			}
+			.review {
+				position: relative;
+				margin: 0 auto;
+				padding: 80px 125px 23px 125px;
+				width: 816px;
+				height: 312px;
+				background: #F8FAFB;
+				border-radius: 8px;
+				.review__foto {
+					position: absolute;
+					top: -44px;
+					left: 364px;
+					.review__foto-img {
+
+					}
+				}
+				.review__text {
+					margin-bottom: 32px;
+					font-family: $second_font;
+					font-size: 16px;
+					font-weight: 400;
+					color: $second_color;
+					text-align: center;
+					line-height: 25px;
+				}
+				.review__name {
+					margin-bottom: 32px;
+					font-family: $second_font;
+					font-size: 24px;
+					font-weight: 600;
+					color: $second_color;
+					text-align: center;
+				}
+				.review__prof {
+					font-family: $main_font;
+					font-size: 16px;
+					font-weight: 300;
+					text-align: center;
+				}
+				.review__arrow-left {
+					position: absolute;
+					top: 50%;
+					left: -90px;
+				}
+				.review__arrow-right {
+					position: absolute;
+					top: 50%;
+					right: -90px;
+				}
+			}
+		}
+	}
+}
+
+
+
+

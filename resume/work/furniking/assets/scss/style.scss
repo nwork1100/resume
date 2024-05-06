@@ -91,14 +91,9 @@ $second_font: "Mulish";
 // Шрифт по замовчуванню
 $fontFamily: "Rubik";
 
-// Кольори
-$main_color: #7AC751;
-$second_color: #555555;
-$white_color: #ffffff;
-
 $minWidth: 320px;
 $maxWidth: 1440;
-$maxWidthContainer: 1173;
+$maxWidthContainer: 1170;
 $md1: $maxWidthContainer + 12;
 $md2: 991.98;
 $md3: 767.98;
@@ -107,48 +102,11 @@ $md4: 479.98;
 
 // <МІКСІНИ>========================================================================================
 @import "mixins";
-// </МІКСІНИ>========================================================================================
+// </МІКСІНИ>=======================================================================================
 
-.wrapper {
-	max-width: $maxWidth+px;
+.header {
+	._container {
+		width: $maxWidthContainer + px;
+		margin: 0 auto;
+	}
 }
-
-.container {
-	max-width: $maxWidthContainer+px;
-	margin: 0 auto;
-}
-
-@import "header";
-@import "search";
-@import "mass";
-@import "pros";
-@import "furniture";
-@import "trending";
-@import "offer";
-@import "our";
-@import "_says.scss";
-@import "latest";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
